@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(116, 197, 116);
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(134, 199, 134);
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(115, 177, 115);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(112, 194, 112);
+    min-height: 150px;
+}
+table tr:nth-child(even){
+    background-color: rgb(153, 173, 153);  
+    color: white; 
+}
+table tr:hover td{
+    background-color: rgb(136, 143, 136);  
+    color: white; 
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="Index.html">Voltar</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h1>Bem-estar</h1>
+            </div>
+    
+            <div class="content">
+                <h3>Horarios</h3>
+
+                <table border="1" widyh="250">
+                    <tr>
+                        <td>Serviços</td>
+                        <td>Seg a Sex</td>
+                        <td>Sabado</td>
+                        <td>Feriados</td>
+                    </tr>
+                    <tr>
+                        <td>Consultas</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 13h</td>
+                        <td>08h - 13h</td>
+                    </tr>
+                    <tr>
+                        <td>Nutriçao</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 13h</td>
+                        <td>08h - 13h</td>
+                    </tr>
+                    <tr>
+                        <td>Terapias</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 13h</td>
+                        <td>08h -13h</td>
+                    </tr>
+                    <tr></tr>
+                        <td>Atividades Bem-Estar</td>
+                        <td>08h - 17h</td>
+                        <td>08h - 13h</td>
+                        <td>08h - 13h</td>
+                    </tr>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <h3>Valores deverão ser consultado ao marcar a consulta</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
